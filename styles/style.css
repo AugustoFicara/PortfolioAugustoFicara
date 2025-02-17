@@ -1,0 +1,52 @@
+.hover-btn{
+    background-color: #00bf63;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.hover-btn:hover{
+    background-color: #146c43;
+}
+
+.green {
+    color: #00bf63;
+}
+
+.fondo-green{
+    background-color: #00bf63;
+}
+
+.hover-links{
+    color: #00bf63;
+    transition: color 0.3s ease-in-out;
+}
+
+.hover-links:hover {
+    color: #146c43;
+}
+
+.hover-img:hover{
+    opacity: 0.7;
+}
+
+.btn-freelancer{
+    border: 1px solid;
+}
+
+.btn-freelancer:hover{
+    background-color: #00bf63;
+    color: white;
+    border: 1px solid #00bf63;
+}
+
+.hover-dropdown:hover{
+    background-color: #00bf63;
+}
+
+.hover-links-freelancer{
+    color: black;
+    transition: color 0.3s ease-in-out;
+}
+
+.hover-links-freelancer:hover {
+    color: #00bf63;
+}

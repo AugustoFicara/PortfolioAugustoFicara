@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="portfolio desarrollador">
+    <title>Portfolio - Augusto Ficara</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('WtA01zDFnZGPZCZkX')
+    </script>
+</head>
+
+<body>
+    <!--HEADER-->
+    <nav class="navbar navbar-light fixed-top bg-dark shadow-sm">
+        <div class="container-lg">
+            <a href="#home" class="navbar-brand text-danger fw-bold fs-4"><img style="height: 2.5rem;"
+                    src="./assets/Logo (sin fondo).png" alt="Logo header"></a>
+            <div class="dropdown">
+                <button class="btn px-3 hover-btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                    aria-expanded="false"><i class="fas fa-bars"></i></button>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                    <li><a href="#home" class="dropdown-item hover-dropdown">Inicio</a></li>
+                    <li><a href="#about" class="dropdown-item hover-dropdown">Sobre mí</a></li>
+                    <li><a href="#services" class="dropdown-item hover-dropdown">Servicios</a></li>
+                    <li><a href="#portfolio" class="dropdown-item hover-dropdown">Trabajos</a></li>
+                    <!--<li><a href="#testimonials" class="dropdown-item">Testimonials</a></li>-->
+                    <li><a href="#contact" class="dropdown-item hover-dropdown">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--HOME-->
+    <section class="home py-5" style="background-color: #2C2F33;" id="home">
+        <div class="container-lg">
+            <div class="row min-vh-100 align-items-center align-content-center">
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="home-img text-center">
+                        <img src="./assets/Yo (círculo).png" class="rounded-circle mw-100" alt="img perfil">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                    <div class="home-text">
+                        <p class=" mb-1 text-light">Hola, soy</p>
+                        <h1 class="text-uppercase fs-1 fw-bold green">Técnico Universitario en
+                            Programación</h1>
+                        <h2 class="fs-4 text-light">Augusto Ficara</h2>
+                        <p class="mt-4 text-light">Programador con experiencia en la creación de soluciones eficientes e
+                            intuitivas. Me especializo en la resolución de problemas, el diseño de interfaces y el
+                            desarrollo de apliaciones optimizadas para mejorar la experiencia del usuario.</p>
+                        <div class="row">
+                            <div class="col-lg-12 d-flex align-items-center">
+                                <a href="#portfolio" class="btn px-3 me-5 hover-btn"><i
+                                        class="fa-solid fa-briefcase"></i>&nbsp;&nbsp;Mis trabajos</a>
+                                <div class="social-links">
+                                    <a target="_blank" href="http://wa.me/5492634849604"
+                                        class="me-2 fs-3 hover-links"><i class="fab fa-whatsapp"></i></a>
+                                    <a target="_blank" href="https://x.com/augusto_ficara?t=V5-Z4cEji6Y5A4dEE4GteA&s=09"
+                                        class="me-2 fs-3 hover-links"><i class="fab fa-twitter"></i></a>
+                                    <a target="_blank"
+                                        href="https://www.instagram.com/augus_vargas?igsh=bjQwYnJld2didmxz"
+                                        class="me-2 fs-3 hover-links"><i class="fab fa-instagram"></i></a>
+                                    <a target="_blank"
+                                        href="https://www.linkedin.com/in/augusto-david-ficara-vargas-0b7634329"
+                                        class="me-2 fs-3 hover-links"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--ABOUT-->
+    <section class="about bg-dark py-5" id="about">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5 text-light">Sobre mí</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <h3 class="fs-4 mb-3 green">Proactivo, adaptable y enfocado en mejorar cada día</h3>
+                        <p class="text-light">✓ Apasionado por la innovación y la tecnología, siempre buscando nuevas
+                            formas de mejorar y optimizar procesos.
+                        </p>
+                        <p class="text-light"> ✓ Enfoque analítico y creativo, combinando lógica y diseño para ofrecer
+                            soluciones efectivas
+                            y funcionales.
+                        </p>
+                        <p class="text-light">✓ Trabajo en equipo y adaptabilidad, con la capacidad de aprender
+                            rápidamente y enfrentar
+                            nuevos desafíos con determinación.
+                        </p>
+                    </div>
+                    <div class="row text-center text-uppercase my-3">
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold text-light">1</h4>
+                                <p class="text-light">Proyectos completados</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold text-light">1</h4>
+                                <p class="text-light">Clientes felices</p>
+                            </div>
+                        </div>
+                        <!--<div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold text-light">95</h4>
+                                <p class="text-light">Positive reviews</p>
+                            </div>
+                        </div>-->
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 d-flex align-items-center">
+                            <a class="btn px-3 me-5 hover-btn" onclick="descargarCV()"><i
+                                    class="fa-solid fa-download"></i>&nbsp;&nbsp;Descargar CV</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6 text-light">Java</h3>
+                        <div class="progress" style="height: 1px;">
+                            <div class="progress-bar fondo-green" role="progressbar" style="width: 75%;"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6 text-light">SpringBoot</h3>
+                        <div class="progress" style="height: 1px;">
+                            <div class="progress-bar fondo-green" role="progressbar" style="width: 65%;"
+                                aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6 text-light">PHP</h3>
+                        <div class="progress" style="height: 1px;">
+                            <div class="progress-bar fondo-green" role="progressbar" style="width: 25%;"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6 text-light">SQL</h3>
+                        <div class="progress" style="height: 1px;">
+                            <div class="progress-bar fondo-green" role="progressbar" style="width: 80%;"
+                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6 text-light">HTML</h3>
+                        <div class="progress" style="height: 1px;">
+                            <div class="progress-bar fondo-green" role="progressbar" style="width: 90%;"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6 text-light">CSS</h3>
+                        <div class="progress" style="height: 1px;">
+                            <div class="progress-bar fondo-green" role="progressbar" style="width: 50%;"
+                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6 text-light">JavaScript</h3>
+                        <div class="progress" style="height: 1px;">
+                            <div class="progress-bar fondo-green" role="progressbar" style="width: 75%;"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6 text-light">TypeScript</h3>
+                        <div class="progress" style="height: 1px;">
+                            <div class="progress-bar fondo-green" role="progressbar" style="width: 75%;"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6 text-light">Bootstrap</h3>
+                        <div class="progress" style="height: 1px;">
+                            <div class="progress-bar fondo-green" role="progressbar" style="width: 90%;"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h3 class="fs-6 text-light">ReactJS / ReactTS</h3>
+                        <div class="progress" style="height: 1px;">
+                            <div class="progress-bar fondo-green" role="progressbar" style="width: 85%;"
+                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SERVICES-->
+    <section class="services py-5" style="background-color: #2C2F33;" id="services">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5 text-light">¿Qué hago?</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item shadow py-4 rounded bg-dark">
+                        <div class="icon my-3 hover-links fs-2">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="fs-5 py-2 text-light">Desarrollo Web</h3>
+                        <p class="text-light px-3">Creación de sitios y aplicaciones web utilizando HTML, CSS, JS y/o
+                            Bootstrap para diseños responsivos y atractivos.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item shadow py-4 rounded bg-dark">
+                        <div class="icon my-3 hover-links fs-2">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3 class="fs-5 py-2 text-light">Desarrollo Back-End</h3>
+                        <p class="text-light px-3">Programación en Java y PHP para construir sistemas robustos, con
+                            conexiones a bases de datos y API RESTful.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item shadow py-4 rounded bg-dark">
+                        <div class="icon my-3 hover-links fs-2">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3 class="fs-5 py-2 text-light">Diseño y Maquetación</h3>
+                        <p class="text-light px-3">Uso de HTML y CSS para diseñar interfaces intuitivas y optimizadas
+                            para la experiencia del usuario.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FREELANCER AVAILABLE-->
+    <section class="freelancer-available py-5">
+        <div class="container-lg">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p class="text-dark fs-5">¿Tenés algún proyecto en mente?</p>
+                    <h2 class="fs-1 text-dark mb-4">¡Estoy disponible para proyectos como freelancer!</h2>
+                    <div class="social-links mb-1">
+                        <a target="_blank" href="http://wa.me/5492634849604" class="me-2 fs-3 hover-links-freelancer"><i
+                                class="fab fa-whatsapp"></i></a>
+                        <a target="_blank" href="https://x.com/augusto_ficara?t=V5-Z4cEji6Y5A4dEE4GteA&s=09"
+                            class="me-2 fs-3 hover-links-freelancer"><i class="fab fa-twitter"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/augus_vargas?igsh=bjQwYnJld2didmxz"
+                            class="me-2 fs-3 hover-links-freelancer"><i class="fab fa-instagram"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/augusto-david-ficara-vargas-0b7634329"
+                            class="me-2 fs-3 hover-links-freelancer"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="mb-2">
+                        o
+                    </div>
+                    <a href="#contact" class="btn btn-freelancer">Contactame por acá</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--PORTFOLIO-->
+    <section class="portfolio py-5 bg-dark" id="portfolio">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5 text-light">Mis trabajos</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="./assets/Proyecto 1.png" class="w-100 hover-img shadow" alt="item portfolio">
+                        <h3 class="text-capitalize fs-5 my-2 text-light">Portfolio - Ana Valentina (Fotógrafa)</h3>
+                        <p class="mb-4"><a target="_blank" href="https://portfolio-ana-valentina.vercel.app/"
+                                class="text-decoration-none hover-links"><i
+                                    class="fas fa-external-link-alt"></i>&nbsp;&nbsp;Explorar sitio</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--TESTIMONIALS-->
+    <!--<section class="testimonials py-5 bg-dark" id="testimonials">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Testimonials</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-xl-7">
+                    <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-danger"></li>
+                            <li data-bs-target="#carousel1" data-bs-slide-to="1" class="bg-danger"></li>
+                            <li data-bs-target="#carousel1" data-bs-slide-to="2" class="bg-danger"></li>
+                        </ol>
+                        <div class="carousel-inner p-1">
+                            <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
+                                <div class="testi-author-info d-flex align-items-center">
+                                    <img src="" class="img-thumbnail" alt="author img">
+                                    <div class="author ms-3">
+                                        <h3 class="fs-6 mb-1">Raj Himachal</h3>
+                                        <p class="text-muted m-0">Seo Manager</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Facilis, consequatur labore natus
+                                    quis ex dolorem aperiam numquam unde amet omnis quisquam non itaque eos quaerat
+                                    explicabo
+                                    doloribus assumenda libero excepturi.</p>
+                                <div class="rating text-danger">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                                <div class="testi-author-info d-flex align-items-center">
+                                    <img src="" class="img-thumbnail" alt="author img">
+                                    <div class="author ms-3">
+                                        <h3 class="fs-6 mb-1">Raj Himachal</h3>
+                                        <p class="text-muted m-0">Seo Manager</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Facilis, consequatur labore natus
+                                    quis ex dolorem aperiam numquam unde amet omnis quisquam non itaque eos quaerat
+                                    explicabo
+                                    doloribus assumenda libero excepturi.</p>
+                                <div class="rating text-danger">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                                <div class="testi-author-info d-flex align-items-center">
+                                    <img src="" class="img-thumbnail" alt="author img">
+                                    <div class="author ms-3">
+                                        <h3 class="fs-6 mb-1">Raj Himachal</h3>
+                                        <p class="text-muted m-0">Seo Manager</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Facilis, consequatur labore natus
+                                    quis ex dolorem aperiam numquam unde amet omnis quisquam non itaque eos quaerat
+                                    explicabo
+                                    doloribus assumenda libero excepturi.</p>
+                                <div class="rating text-danger">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <!--CONTACT-->
+    <section class="contact py-5" style="background-color: #2C2F33;" id="contact">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5 text-light">Contacto</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="contact-item d-flex">
+                        <div class="icon fs-4 hover-links">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5 text-light">E-Mail</h3>
+                            <p class="text-light">augustoficara04@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex">
+                        <div class="icon fs-4 hover-links">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5 text-light">Teléfono</h3>
+                            <p class="text-light">+54 9 263 484 9604</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex">
+                        <div class="icon fs-4 hover-links">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5 text-light">Localidad</h3>
+                            <p class="text-light">Rivadavia, Mendoza</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="contact-form">
+                        <form id="form">
+                            <div class="row">
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" placeholder="Nombre y Apellido"
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm" name="from_name"
+                                        id="from_name">
+                                </div>
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" placeholder="E-Mail"
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm" name="email_id"
+                                        id="email_id">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <input type="text" placeholder="Asunto"
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm" name="subject"
+                                        id="subject">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <textarea rows="5" placeholder="Mensaje"
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm" name="message"
+                                        id="message"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <button class="btn hover-btn">
+                                        <i class="fas fa-paper-plane"></i><input type="submit"
+                                            class="bg-transparent border-0" id="button" value=" Enviar mensaje">
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer border-top py-4 bg-dark">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="m-0 text-center text-muted">&copy; 2025 Augusto Ficara. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./scripts/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
