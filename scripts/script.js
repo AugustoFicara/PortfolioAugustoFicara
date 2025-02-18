@@ -1,7 +1,7 @@
 //DESCARGAR CV
 function descargarCV() {
     const link = document.createElement('a');
-    link.href = '../assets/CV - Augusto Ficara.pdf';
+    link.href = '/assets/CV - Augusto Ficara.pdf';
     link.download = 'CV - Augusto Ficara.pdf';
     document.body.appendChild(link);
     link.click();
